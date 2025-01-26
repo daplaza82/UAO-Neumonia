@@ -80,7 +80,7 @@ pytest tests/test_read_img.py
 pytest --cov=src tests/
 ```
 
-### Usando Docker
+## Usando Docker
 
 ```bash
 # Configuración inicial para que funcione la interfaz gráfica del contenedor en Windows
@@ -105,7 +105,11 @@ pytest --cov=src tests/
 3  Modificar PowerShell para configurar la variable DISPLAY:
    $env:DISPLAY = "host.docker.internal:0.0"
 
+4 Ejecutar VcXsrv antes de iniciar el contenedor
+
 ```
+### Puedes ejecutar esta aplicación usando Docker de dos formas:
+### Opción 1: Construir la imagen localmente
 
 ```bash
 # Construir la imagen
@@ -115,7 +119,15 @@ docker build -t detector-neumonia .
 docker run --rm -e DISPLAY=host.docker.internal:0.0 detector-neumonia
 ```
 
-### Estructura del Proyecto
+### Opción 2: Usar la imagen de Docker Hub
+
+```bash
+# Descargar y ejecutar directamente desde Docker Hub
+docker pull daplaza/detector-neumonia:latest
+docker run --rm -e DISPLAY=host.docker.internal:0.0 daplaza/detector-neumonia:latest
+```
+
+## Estructura del Proyecto
 ```
 UAO-Neumonia/
 ├── src/               # Código fuente
