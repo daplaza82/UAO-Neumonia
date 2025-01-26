@@ -131,6 +131,7 @@ UAO-Neumonia/
 │   └── jpg/           # Para imágenes JPG
 ├── tests/             # Pruebas unitarias
 ├── models/            # Modelos entrenados
+├── main.py            # inicia la aplicación
 └── requirements.txt   # Dependencias
 ```
 
