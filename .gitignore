@@ -41,6 +41,7 @@ venv.bak/
 
 # Archivos de configuración de IDEs
 .idea/
+.vscode/
 *.swp
 *.swo
 .project

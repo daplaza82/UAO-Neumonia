@@ -120,6 +120,7 @@ docker run --rm -e DISPLAY=host.docker.internal:0.0 detector-neumonia
 UAO-Neumonia/
 ├── src/               # Código fuente
 │   ├── gui/           # Interfaz gráfica
+│   │   ├── app.py     # ejecuta la Interfaz gráfica
 │   ├── read_img.py    # Lectura de imágenes
 │   ├── preprocess_img.py  # Preprocesamiento
 │   ├── load_model.py  # Carga del modelo
