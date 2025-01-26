@@ -1,10 +1,50 @@
-pyautogui
-pillow
-tkcap
-pydicom
-img2pdf
-opencv_python
-matplotlib
-pandas
-tensorflow
-python-xlib
+# Dependencias principales para deep learning
+tensorflow==2.14.0
+keras==2.14.0
+
+# Dependencias requeridas del ejercicio original
+pyautogui==0.9.54
+pillow==10.0.1
+tkcap==0.0.4  # Actualizado a la última versión disponible
+pydicom==2.4.3
+img2pdf==0.4.4
+opencv-python==4.8.1.78
+matplotlib==3.7.2
+pandas==2.0.3
+python-xlib==0.33
+
+# Procesamiento de imágenes adicionales
+numpy==1.24.3
+
+# Testing
+pytest==7.4.0
+pytest-cov==4.1.0
+
+# Herramientas de desarrollo
+black==23.7.0  # Formateador de código
+flake8==6.1.0  # Linter
+isort==5.12.0  # Ordenador de importaciones
+
+# Documentación
+Sphinx==7.1.1
+sphinx-rtd-theme==1.3.0
+
+# Otras utilidades
+python-dotenv==1.0.0  # Para variables de entorno
+typing-extensions==4.7.1  # Para anotaciones de tipo adicionales
+
+# Dependencias de desarrollo adicionales
+autopep8==2.0.4  # Formateador automático de código
+rope==1.9.0  # Refactorización
+mypy==1.5.1  # Verificación de tipos estática
+
+#pyautogui
+#pillow
+#tkcap
+#pydicom
+#img2pdf
+#opencv_python
+#matplotlib
+#pandas
+#tensorflow
+#python-xlib
