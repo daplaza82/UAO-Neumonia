@@ -1,12 +1,12 @@
 # Detector de Neumonía con IA
-```bash
+
 Sistema de apoyo al diagnóstico médico de neumonía utilizando Inteligencia Artificial para el análisis de imágenes radiográficas.
-```
+
 
 ## Descripción
-```bash
+
 Este proyecto implementa una aplicación de escritorio que utiliza redes neuronales convolucionales para detectar y clasificar casos de neumonía a partir de imágenes radiográficas. El sistema puede distinguir entre neumonía bacteriana, viral y casos normales, proporcionando además visualizaciones de las áreas de interés mediante mapas de calor (Grad-CAM).
-```
+
 
 ## Características
 
